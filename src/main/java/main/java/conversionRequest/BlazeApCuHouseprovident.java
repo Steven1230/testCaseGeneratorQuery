@@ -15,9 +15,9 @@ public class BlazeApCuHouseprovident {
     private String FIRST_PAY_MONTH;
     private String END_PAY_DATE;
     private String PAY_STATUS;
-    private Integer PAY_PER_MONTH;
-    private Integer SINGLE_RATE;
-    private Integer COMPANY_RATE;
+    private Double PAY_PER_MONTH;
+    private Double SINGLE_RATE;
+    private Double COMPANY_RATE;
     private String COMPANY;
     private Date NEWS_UPDATE_DATE;
 
@@ -85,27 +85,27 @@ public class BlazeApCuHouseprovident {
         this.PAY_STATUS = PAY_STATUS;
     }
 
-    public Integer getPAY_PER_MONTH() {
+    public Double getPAY_PER_MONTH() {
         return PAY_PER_MONTH;
     }
 
-    public void setPAY_PER_MONTH(Integer PAY_PER_MONTH) {
+    public void setPAY_PER_MONTH(Double PAY_PER_MONTH) {
         this.PAY_PER_MONTH = PAY_PER_MONTH;
     }
 
-    public Integer getSINGLE_RATE() {
+    public Double getSINGLE_RATE() {
         return SINGLE_RATE;
     }
 
-    public void setSINGLE_RATE(Integer SINGLE_RATE) {
+    public void setSINGLE_RATE(Double SINGLE_RATE) {
         this.SINGLE_RATE = SINGLE_RATE;
     }
 
-    public Integer getCOMPANY_RATE() {
+    public Double getCOMPANY_RATE() {
         return COMPANY_RATE;
     }
 
-    public void setCOMPANY_RATE(Integer COMPANY_RATE) {
+    public void setCOMPANY_RATE(Double COMPANY_RATE) {
         this.COMPANY_RATE = COMPANY_RATE;
     }
 

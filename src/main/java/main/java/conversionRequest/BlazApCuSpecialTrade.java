@@ -12,7 +12,7 @@ public class BlazApCuSpecialTrade {
     private String SPECIAL_TRADE_TYPE;
     private Date HAPPEN_DATE;
     private Integer CHANGE_MONTHS;
-    private Integer CHANGE_AMOUNT;
+    private Double CHANGE_AMOUNT;
     private String DETAIL;
     private String REPORT_ID;
 
@@ -56,11 +56,12 @@ public class BlazApCuSpecialTrade {
         this.CHANGE_MONTHS = CHANGE_MONTHS;
     }
 
-    public Integer getCHANGE_AMOUNT() {
+
+    public Double getCHANGE_AMOUNT() {
         return CHANGE_AMOUNT;
     }
 
-    public void setCHANGE_AMOUNT(Integer CHANGE_AMOUNT) {
+    public void setCHANGE_AMOUNT(Double CHANGE_AMOUNT) {
         this.CHANGE_AMOUNT = CHANGE_AMOUNT;
     }
 

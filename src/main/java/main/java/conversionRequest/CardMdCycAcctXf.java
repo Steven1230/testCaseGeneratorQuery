@@ -14,7 +14,7 @@ public class CardMdCycAcctXf {
     private String CONSM_TYPE_CODE;
     private String CONSM_TYPE;
     private Integer CONSM_CNT;
-    private Integer CONSM_AMT;
+    private Double CONSM_AMT;
     private Date MYETL_DATE;
 
     public String getXACCOUNT() {
@@ -73,11 +73,12 @@ public class CardMdCycAcctXf {
         this.CONSM_CNT = CONSM_CNT;
     }
 
-    public Integer getCONSM_AMT() {
+
+    public Double getCONSM_AMT() {
         return CONSM_AMT;
     }
 
-    public void setCONSM_AMT(Integer CONSM_AMT) {
+    public void setCONSM_AMT(Double CONSM_AMT) {
         this.CONSM_AMT = CONSM_AMT;
     }
 

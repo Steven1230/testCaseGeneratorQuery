@@ -16,24 +16,24 @@ public class BlazeApCuLoanBasicInfo {
     private String CURRENCY;
     private Date BEG_DATE;
     private Date END_DATE;
-    private Integer LOAD_AMOUNT;
+    private Double LOAD_AMOUNT;
     private String BONDS_TYPE;
     private String REPAY_WAY;
     private String LOAD_PERIODS;
     private Date UPDATE_DATE;
     private String FIVE_STYLE;
-    private Integer BASIC_LOAD_AMOUNT;
+    private Double BASIC_LOAD_AMOUNT;
     private Integer REMAIN_LOAD_PERIODS;
-    private Integer REPAY_AT_MONTH;
+    private Double REPAY_AT_MONTH;
     private Date NEED_REPAY_DATE;
-    private Integer REPAYED_AT_MONTH;
+    private Double REPAYED_AT_MONTH;
     private Date LAST_REPAY_DATE;
     private Integer OVERDUE_PERIODS;
-    private Integer OVERDUE_AMOUNT;
-    private Integer OVERDUE_3160_AMOUNT;
-    private Integer OVERDUE_6190_AMOUNT;
-    private Integer OVERDUE_91180_AMOUNT;
-    private Integer OVERDUE_180_AMOUNT;
+    private Double OVERDUE_AMOUNT;
+    private Double OVERDUE_3160_AMOUNT;
+    private Double OVERDUE_6190_AMOUNT;
+    private Double OVERDUE_91180_AMOUNT;
+    private Double OVERDUE_180_AMOUNT;
     private String BEG_YEAR_MONTH;
     private String END_YEAR_MONTH;
     private String MONTH_24STATUS;
@@ -110,11 +110,11 @@ public class BlazeApCuLoanBasicInfo {
         this.END_DATE = END_DATE;
     }
 
-    public Integer getLOAD_AMOUNT() {
+    public Double getLOAD_AMOUNT() {
         return LOAD_AMOUNT;
     }
 
-    public void setLOAD_AMOUNT(Integer LOAD_AMOUNT) {
+    public void setLOAD_AMOUNT(Double LOAD_AMOUNT) {
         this.LOAD_AMOUNT = LOAD_AMOUNT;
     }
 
@@ -158,11 +158,11 @@ public class BlazeApCuLoanBasicInfo {
         this.FIVE_STYLE = FIVE_STYLE;
     }
 
-    public Integer getBASIC_LOAD_AMOUNT() {
+    public Double getBASIC_LOAD_AMOUNT() {
         return BASIC_LOAD_AMOUNT;
     }
 
-    public void setBASIC_LOAD_AMOUNT(Integer BASIC_LOAD_AMOUNT) {
+    public void setBASIC_LOAD_AMOUNT(Double BASIC_LOAD_AMOUNT) {
         this.BASIC_LOAD_AMOUNT = BASIC_LOAD_AMOUNT;
     }
 
@@ -174,11 +174,11 @@ public class BlazeApCuLoanBasicInfo {
         this.REMAIN_LOAD_PERIODS = REMAIN_LOAD_PERIODS;
     }
 
-    public Integer getREPAY_AT_MONTH() {
+    public Double getREPAY_AT_MONTH() {
         return REPAY_AT_MONTH;
     }
 
-    public void setREPAY_AT_MONTH(Integer REPAY_AT_MONTH) {
+    public void setREPAY_AT_MONTH(Double REPAY_AT_MONTH) {
         this.REPAY_AT_MONTH = REPAY_AT_MONTH;
     }
 
@@ -190,11 +190,11 @@ public class BlazeApCuLoanBasicInfo {
         this.NEED_REPAY_DATE = NEED_REPAY_DATE;
     }
 
-    public Integer getREPAYED_AT_MONTH() {
+    public Double getREPAYED_AT_MONTH() {
         return REPAYED_AT_MONTH;
     }
 
-    public void setREPAYED_AT_MONTH(Integer REPAYED_AT_MONTH) {
+    public void setREPAYED_AT_MONTH(Double REPAYED_AT_MONTH) {
         this.REPAYED_AT_MONTH = REPAYED_AT_MONTH;
     }
 
@@ -214,43 +214,43 @@ public class BlazeApCuLoanBasicInfo {
         this.OVERDUE_PERIODS = OVERDUE_PERIODS;
     }
 
-    public Integer getOVERDUE_AMOUNT() {
+    public Double getOVERDUE_AMOUNT() {
         return OVERDUE_AMOUNT;
     }
 
-    public void setOVERDUE_AMOUNT(Integer OVERDUE_AMOUNT) {
+    public void setOVERDUE_AMOUNT(Double OVERDUE_AMOUNT) {
         this.OVERDUE_AMOUNT = OVERDUE_AMOUNT;
     }
 
-    public Integer getOVERDUE_3160_AMOUNT() {
+    public Double getOVERDUE_3160_AMOUNT() {
         return OVERDUE_3160_AMOUNT;
     }
 
-    public void setOVERDUE_3160_AMOUNT(Integer OVERDUE_3160_AMOUNT) {
+    public void setOVERDUE_3160_AMOUNT(Double OVERDUE_3160_AMOUNT) {
         this.OVERDUE_3160_AMOUNT = OVERDUE_3160_AMOUNT;
     }
 
-    public Integer getOVERDUE_6190_AMOUNT() {
+    public Double getOVERDUE_6190_AMOUNT() {
         return OVERDUE_6190_AMOUNT;
     }
 
-    public void setOVERDUE_6190_AMOUNT(Integer OVERDUE_6190_AMOUNT) {
+    public void setOVERDUE_6190_AMOUNT(Double OVERDUE_6190_AMOUNT) {
         this.OVERDUE_6190_AMOUNT = OVERDUE_6190_AMOUNT;
     }
 
-    public Integer getOVERDUE_91180_AMOUNT() {
+    public Double getOVERDUE_91180_AMOUNT() {
         return OVERDUE_91180_AMOUNT;
     }
 
-    public void setOVERDUE_91180_AMOUNT(Integer OVERDUE_91180_AMOUNT) {
+    public void setOVERDUE_91180_AMOUNT(Double OVERDUE_91180_AMOUNT) {
         this.OVERDUE_91180_AMOUNT = OVERDUE_91180_AMOUNT;
     }
 
-    public Integer getOVERDUE_180_AMOUNT() {
+    public Double getOVERDUE_180_AMOUNT() {
         return OVERDUE_180_AMOUNT;
     }
 
-    public void setOVERDUE_180_AMOUNT(Integer OVERDUE_180_AMOUNT) {
+    public void setOVERDUE_180_AMOUNT(Double OVERDUE_180_AMOUNT) {
         this.OVERDUE_180_AMOUNT = OVERDUE_180_AMOUNT;
     }
 

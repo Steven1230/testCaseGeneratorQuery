@@ -20,28 +20,28 @@ public class BlazApCycAcctState {
     private Integer CRED_LIMIT;
     private Integer TEMP_LIMIT;
     private Integer MAX_CASH_LIMIT;
-    private Integer STM_BALNCE;
-    private Integer ODUE_AMT;
-    private Integer STM_BALORI;
-    private Integer INCOME;
-    private Integer CUR_BAL_SUM;
-    private Integer RECVBL_DEBT;
-    private Integer CUR_LIMIT_SUM;
-    private Integer MAX_CUR_BAL;
-    private Integer FQ_ZD_INSTL;
-    private Integer PAYMT_CLRD;
-    private Integer CONSM_AMT_TOP_1;
-    private Integer CONSM_AMT_TOP_2;
-    private Integer CONSM_AMT_TOP_3;
-    private Integer CONSM_AMT_TOP_4;
-    private Integer CONSM_AMT_TOP_5;
+    private Double STM_BALNCE;
+    private Double ODUE_AMT;
+    private Double STM_BALORI;
+    private Double INCOME;
+    private Double CUR_BAL_SUM;
+    private Double RECVBL_DEBT;
+    private Double CUR_LIMIT_SUM;
+    private Double MAX_CUR_BAL;
+    private Double FQ_ZD_INSTL;
+    private Double PAYMT_CLRD;
+    private Double CONSM_AMT_TOP_1;
+    private Double CONSM_AMT_TOP_2;
+    private Double CONSM_AMT_TOP_3;
+    private Double CONSM_AMT_TOP_4;
+    private Double CONSM_AMT_TOP_5;
     private Integer IS_ADJ_LIMIT_INCYC;
     private Integer IS_ADJ_TMP_LIMIT_INCYC;
     private Integer IS_XFFQ_INCYC;
     private Integer IS_ZDFQ_INCYC;
 
-    private Integer INP_CASH_AMT;
-    private Integer INT_AMT;
+    private Double INP_CASH_AMT;
+    private Double INT_AMT;
     private Integer DAYS_LIMIT_USED;
     private Date MYETL_DATE;
 
@@ -141,123 +141,123 @@ public class BlazApCycAcctState {
         this.MAX_CASH_LIMIT = MAX_CASH_LIMIT;
     }
 
-    public Integer getSTM_BALNCE() {
+    public Double getSTM_BALNCE() {
         return STM_BALNCE;
     }
 
-    public void setSTM_BALNCE(Integer STM_BALNCE) {
+    public void setSTM_BALNCE(Double STM_BALNCE) {
         this.STM_BALNCE = STM_BALNCE;
     }
 
-    public Integer getODUE_AMT() {
+    public Double getODUE_AMT() {
         return ODUE_AMT;
     }
 
-    public void setODUE_AMT(Integer ODUE_AMT) {
+    public void setODUE_AMT(Double ODUE_AMT) {
         this.ODUE_AMT = ODUE_AMT;
     }
 
-    public Integer getSTM_BALORI() {
+    public Double getSTM_BALORI() {
         return STM_BALORI;
     }
 
-    public void setSTM_BALORI(Integer STM_BALORI) {
+    public void setSTM_BALORI(Double STM_BALORI) {
         this.STM_BALORI = STM_BALORI;
     }
 
-    public Integer getINCOME() {
+    public Double getINCOME() {
         return INCOME;
     }
 
-    public void setINCOME(Integer INCOME) {
+    public void setINCOME(Double INCOME) {
         this.INCOME = INCOME;
     }
 
-    public Integer getCUR_BAL_SUM() {
+    public Double getCUR_BAL_SUM() {
         return CUR_BAL_SUM;
     }
 
-    public void setCUR_BAL_SUM(Integer CUR_BAL_SUM) {
+    public void setCUR_BAL_SUM(Double CUR_BAL_SUM) {
         this.CUR_BAL_SUM = CUR_BAL_SUM;
     }
 
-    public Integer getRECVBL_DEBT() {
+    public Double getRECVBL_DEBT() {
         return RECVBL_DEBT;
     }
 
-    public void setRECVBL_DEBT(Integer RECVBL_DEBT) {
+    public void setRECVBL_DEBT(Double RECVBL_DEBT) {
         this.RECVBL_DEBT = RECVBL_DEBT;
     }
 
-    public Integer getCUR_LIMIT_SUM() {
+    public Double getCUR_LIMIT_SUM() {
         return CUR_LIMIT_SUM;
     }
 
-    public void setCUR_LIMIT_SUM(Integer CUR_LIMIT_SUM) {
+    public void setCUR_LIMIT_SUM(Double CUR_LIMIT_SUM) {
         this.CUR_LIMIT_SUM = CUR_LIMIT_SUM;
     }
 
-    public Integer getMAX_CUR_BAL() {
+    public Double getMAX_CUR_BAL() {
         return MAX_CUR_BAL;
     }
 
-    public void setMAX_CUR_BAL(Integer MAX_CUR_BAL) {
+    public void setMAX_CUR_BAL(Double MAX_CUR_BAL) {
         this.MAX_CUR_BAL = MAX_CUR_BAL;
     }
 
-    public Integer getFQ_ZD_INSTL() {
+    public Double getFQ_ZD_INSTL() {
         return FQ_ZD_INSTL;
     }
 
-    public void setFQ_ZD_INSTL(Integer FQ_ZD_INSTL) {
+    public void setFQ_ZD_INSTL(Double FQ_ZD_INSTL) {
         this.FQ_ZD_INSTL = FQ_ZD_INSTL;
     }
 
-    public Integer getPAYMT_CLRD() {
+    public Double getPAYMT_CLRD() {
         return PAYMT_CLRD;
     }
 
-    public void setPAYMT_CLRD(Integer PAYMT_CLRD) {
+    public void setPAYMT_CLRD(Double PAYMT_CLRD) {
         this.PAYMT_CLRD = PAYMT_CLRD;
     }
 
-    public Integer getCONSM_AMT_TOP_1() {
+    public Double getCONSM_AMT_TOP_1() {
         return CONSM_AMT_TOP_1;
     }
 
-    public void setCONSM_AMT_TOP_1(Integer CONSM_AMT_TOP_1) {
+    public void setCONSM_AMT_TOP_1(Double CONSM_AMT_TOP_1) {
         this.CONSM_AMT_TOP_1 = CONSM_AMT_TOP_1;
     }
 
-    public Integer getCONSM_AMT_TOP_2() {
+    public Double getCONSM_AMT_TOP_2() {
         return CONSM_AMT_TOP_2;
     }
 
-    public void setCONSM_AMT_TOP_2(Integer CONSM_AMT_TOP_2) {
+    public void setCONSM_AMT_TOP_2(Double CONSM_AMT_TOP_2) {
         this.CONSM_AMT_TOP_2 = CONSM_AMT_TOP_2;
     }
 
-    public Integer getCONSM_AMT_TOP_3() {
+    public Double getCONSM_AMT_TOP_3() {
         return CONSM_AMT_TOP_3;
     }
 
-    public void setCONSM_AMT_TOP_3(Integer CONSM_AMT_TOP_3) {
+    public void setCONSM_AMT_TOP_3(Double CONSM_AMT_TOP_3) {
         this.CONSM_AMT_TOP_3 = CONSM_AMT_TOP_3;
     }
 
-    public Integer getCONSM_AMT_TOP_4() {
+    public Double getCONSM_AMT_TOP_4() {
         return CONSM_AMT_TOP_4;
     }
 
-    public void setCONSM_AMT_TOP_4(Integer CONSM_AMT_TOP_4) {
+    public void setCONSM_AMT_TOP_4(Double CONSM_AMT_TOP_4) {
         this.CONSM_AMT_TOP_4 = CONSM_AMT_TOP_4;
     }
 
-    public Integer getCONSM_AMT_TOP_5() {
+    public Double getCONSM_AMT_TOP_5() {
         return CONSM_AMT_TOP_5;
     }
 
-    public void setCONSM_AMT_TOP_5(Integer CONSM_AMT_TOP_5) {
+    public void setCONSM_AMT_TOP_5(Double CONSM_AMT_TOP_5) {
         this.CONSM_AMT_TOP_5 = CONSM_AMT_TOP_5;
     }
 
@@ -293,19 +293,19 @@ public class BlazApCycAcctState {
         this.IS_ZDFQ_INCYC = IS_ZDFQ_INCYC;
     }
 
-    public Integer getINP_CASH_AMT() {
+    public Double getINP_CASH_AMT() {
         return INP_CASH_AMT;
     }
 
-    public void setINP_CASH_AMT(Integer INP_CASH_AMT) {
+    public void setINP_CASH_AMT(Double INP_CASH_AMT) {
         this.INP_CASH_AMT = INP_CASH_AMT;
     }
 
-    public Integer getINT_AMT() {
+    public Double getINT_AMT() {
         return INT_AMT;
     }
 
-    public void setINT_AMT(Integer INT_AMT) {
+    public void setINT_AMT(Double INT_AMT) {
         this.INT_AMT = INT_AMT;
     }
 

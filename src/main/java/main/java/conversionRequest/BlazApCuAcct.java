@@ -17,7 +17,7 @@ public class BlazApCuAcct {
     private Integer MONTH_NBR;
     private Integer CYCLE_NBR;
     private String CLOSE_CODE;
-    private Integer QUERY_AMT;
+    private Double QUERY_AMT;
     private String STMT_ODUE_120;
     private String E_STMT_ODUE_120;
     private Integer TLMT_END;
@@ -32,11 +32,11 @@ public class BlazApCuAcct {
     private Integer CRED_LIMIT;
     private Integer TEMP_LIMIT;
     private Integer CASH_ADVCE;
-    private Integer CUR_BAL;
-    private Integer ODUE_AMT;
+    private Double CUR_BAL;
+    private Double ODUE_AMT;
     private Integer MTHS_ODUE;
-    private Integer FQ_ZD_INSTL;
-    private Integer PAYMT_CLRD;
+    private Double FQ_ZD_INSTL;
+    private Double PAYMT_CLRD;
     private Date MYETL_DATE;
 
 
@@ -48,70 +48,6 @@ public class BlazApCuAcct {
     private List<CardMdHsAcctFq> cardMdHsAcctFq=new ArrayList<CardMdHsAcctFq>();
     private List<BlazApHsAcctChgs> blazApHsAcctChgs=new ArrayList<BlazApHsAcctChgs>();
     private List<BlazApCycAcctState> blazApCycAcctState=new ArrayList<BlazApCycAcctState>();
-
-    public List<CardMdCycAcctFq> getCardMdCycAcctFq() {
-        return cardMdCycAcctFq;
-    }
-
-    public void setCardMdCycAcctFq(List<CardMdCycAcctFq> cardMdCycAcctFq) {
-        this.cardMdCycAcctFq = cardMdCycAcctFq;
-    }
-
-    public List<CardMdCycAcctHdevn> getCardMdCycAcctHdevn() {
-        return cardMdCycAcctHdevn;
-    }
-
-    public void setCardMdCycAcctHdevn(List<CardMdCycAcctHdevn> cardMdCycAcctHdevn) {
-        this.cardMdCycAcctHdevn = cardMdCycAcctHdevn;
-    }
-
-    public List<CardMdCycAcctJy> getCardMdCycAcctJy() {
-        return cardMdCycAcctJy;
-    }
-
-    public void setCardMdCycAcctJy(List<CardMdCycAcctJy> cardMdCycAcctJy) {
-        this.cardMdCycAcctJy = cardMdCycAcctJy;
-    }
-
-    public List<CardMdCycAcctXf> getCardMdCycAcctXf() {
-        return cardMdCycAcctXf;
-    }
-
-    public void setCardMdCycAcctXf(List<CardMdCycAcctXf> cardMdCycAcctXf) {
-        this.cardMdCycAcctXf = cardMdCycAcctXf;
-    }
-
-    public List<CardMdCycLongcols> getCardMdCycLongcols() {
-        return cardMdCycLongcols;
-    }
-
-    public void setCardMdCycLongcols(List<CardMdCycLongcols> cardMdCycLongcols) {
-        this.cardMdCycLongcols = cardMdCycLongcols;
-    }
-
-    public List<CardMdHsAcctFq> getCardMdHsAcctFq() {
-        return cardMdHsAcctFq;
-    }
-
-    public void setCardMdHsAcctFq(List<CardMdHsAcctFq> cardMdHsAcctFq) {
-        this.cardMdHsAcctFq = cardMdHsAcctFq;
-    }
-
-    public List<BlazApHsAcctChgs> getBlazApHsAcctChgs() {
-        return blazApHsAcctChgs;
-    }
-
-    public void setBlazApHsAcctChgs(List<BlazApHsAcctChgs> blazApHsAcctChgs) {
-        this.blazApHsAcctChgs = blazApHsAcctChgs;
-    }
-
-    public List<BlazApCycAcctState> getBlazApCycAcctState() {
-        return blazApCycAcctState;
-    }
-
-    public void setBlazApCycAcctState(List<BlazApCycAcctState> blazApCycAcctState) {
-        this.blazApCycAcctState = blazApCycAcctState;
-    }
 
     public String getXACCOUNT() {
         return XACCOUNT;
@@ -169,11 +105,11 @@ public class BlazApCuAcct {
         this.CLOSE_CODE = CLOSE_CODE;
     }
 
-    public Integer getQUERY_AMT() {
+    public Double getQUERY_AMT() {
         return QUERY_AMT;
     }
 
-    public void setQUERY_AMT(Integer QUERY_AMT) {
+    public void setQUERY_AMT(Double QUERY_AMT) {
         this.QUERY_AMT = QUERY_AMT;
     }
 
@@ -289,19 +225,19 @@ public class BlazApCuAcct {
         this.CASH_ADVCE = CASH_ADVCE;
     }
 
-    public Integer getCUR_BAL() {
+    public Double getCUR_BAL() {
         return CUR_BAL;
     }
 
-    public void setCUR_BAL(Integer CUR_BAL) {
+    public void setCUR_BAL(Double CUR_BAL) {
         this.CUR_BAL = CUR_BAL;
     }
 
-    public Integer getODUE_AMT() {
+    public Double getODUE_AMT() {
         return ODUE_AMT;
     }
 
-    public void setODUE_AMT(Integer ODUE_AMT) {
+    public void setODUE_AMT(Double ODUE_AMT) {
         this.ODUE_AMT = ODUE_AMT;
     }
 
@@ -313,19 +249,19 @@ public class BlazApCuAcct {
         this.MTHS_ODUE = MTHS_ODUE;
     }
 
-    public Integer getFQ_ZD_INSTL() {
+    public Double getFQ_ZD_INSTL() {
         return FQ_ZD_INSTL;
     }
 
-    public void setFQ_ZD_INSTL(Integer FQ_ZD_INSTL) {
+    public void setFQ_ZD_INSTL(Double FQ_ZD_INSTL) {
         this.FQ_ZD_INSTL = FQ_ZD_INSTL;
     }
 
-    public Integer getPAYMT_CLRD() {
+    public Double getPAYMT_CLRD() {
         return PAYMT_CLRD;
     }
 
-    public void setPAYMT_CLRD(Integer PAYMT_CLRD) {
+    public void setPAYMT_CLRD(Double PAYMT_CLRD) {
         this.PAYMT_CLRD = PAYMT_CLRD;
     }
 
@@ -335,5 +271,69 @@ public class BlazApCuAcct {
 
     public void setMYETL_DATE(Date MYETL_DATE) {
         this.MYETL_DATE = MYETL_DATE;
+    }
+
+    public List<CardMdCycAcctFq> getCardMdCycAcctFq() {
+        return cardMdCycAcctFq;
+    }
+
+    public void setCardMdCycAcctFq(List<CardMdCycAcctFq> cardMdCycAcctFq) {
+        this.cardMdCycAcctFq = cardMdCycAcctFq;
+    }
+
+    public List<CardMdCycAcctHdevn> getCardMdCycAcctHdevn() {
+        return cardMdCycAcctHdevn;
+    }
+
+    public void setCardMdCycAcctHdevn(List<CardMdCycAcctHdevn> cardMdCycAcctHdevn) {
+        this.cardMdCycAcctHdevn = cardMdCycAcctHdevn;
+    }
+
+    public List<CardMdCycAcctJy> getCardMdCycAcctJy() {
+        return cardMdCycAcctJy;
+    }
+
+    public void setCardMdCycAcctJy(List<CardMdCycAcctJy> cardMdCycAcctJy) {
+        this.cardMdCycAcctJy = cardMdCycAcctJy;
+    }
+
+    public List<CardMdCycAcctXf> getCardMdCycAcctXf() {
+        return cardMdCycAcctXf;
+    }
+
+    public void setCardMdCycAcctXf(List<CardMdCycAcctXf> cardMdCycAcctXf) {
+        this.cardMdCycAcctXf = cardMdCycAcctXf;
+    }
+
+    public List<CardMdCycLongcols> getCardMdCycLongcols() {
+        return cardMdCycLongcols;
+    }
+
+    public void setCardMdCycLongcols(List<CardMdCycLongcols> cardMdCycLongcols) {
+        this.cardMdCycLongcols = cardMdCycLongcols;
+    }
+
+    public List<CardMdHsAcctFq> getCardMdHsAcctFq() {
+        return cardMdHsAcctFq;
+    }
+
+    public void setCardMdHsAcctFq(List<CardMdHsAcctFq> cardMdHsAcctFq) {
+        this.cardMdHsAcctFq = cardMdHsAcctFq;
+    }
+
+    public List<BlazApHsAcctChgs> getBlazApHsAcctChgs() {
+        return blazApHsAcctChgs;
+    }
+
+    public void setBlazApHsAcctChgs(List<BlazApHsAcctChgs> blazApHsAcctChgs) {
+        this.blazApHsAcctChgs = blazApHsAcctChgs;
+    }
+
+    public List<BlazApCycAcctState> getBlazApCycAcctState() {
+        return blazApCycAcctState;
+    }
+
+    public void setBlazApCycAcctState(List<BlazApCycAcctState> blazApCycAcctState) {
+        this.blazApCycAcctState = blazApCycAcctState;
     }
 }

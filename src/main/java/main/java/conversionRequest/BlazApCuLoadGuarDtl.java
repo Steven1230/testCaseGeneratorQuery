@@ -11,11 +11,11 @@ public class BlazApCuLoadGuarDtl {
     private String F_ID;
     private String SN;
     private String ORGANIZATION;
-    private Integer CONTRACT_AMOUNT;
+    private Double CONTRACT_AMOUNT;
     private Date ISSUE_DATE;
     private Date END_DATE;
-    private Integer BONDS_AMOUNT;
-    private Integer BASIC_AMOUNT;
+    private Double BONDS_AMOUNT;
+    private Double BASIC_AMOUNT;
     private String FIVE_STYLE;
     private Date NEED_REPAY_DATE;
 
@@ -51,11 +51,11 @@ public class BlazApCuLoadGuarDtl {
         this.ORGANIZATION = ORGANIZATION;
     }
 
-    public Integer getCONTRACT_AMOUNT() {
+    public Double getCONTRACT_AMOUNT() {
         return CONTRACT_AMOUNT;
     }
 
-    public void setCONTRACT_AMOUNT(Integer CONTRACT_AMOUNT) {
+    public void setCONTRACT_AMOUNT(Double CONTRACT_AMOUNT) {
         this.CONTRACT_AMOUNT = CONTRACT_AMOUNT;
     }
 
@@ -75,19 +75,19 @@ public class BlazApCuLoadGuarDtl {
         this.END_DATE = END_DATE;
     }
 
-    public Integer getBONDS_AMOUNT() {
+    public Double getBONDS_AMOUNT() {
         return BONDS_AMOUNT;
     }
 
-    public void setBONDS_AMOUNT(Integer BONDS_AMOUNT) {
+    public void setBONDS_AMOUNT(Double BONDS_AMOUNT) {
         this.BONDS_AMOUNT = BONDS_AMOUNT;
     }
 
-    public Integer getBASIC_AMOUNT() {
+    public Double getBASIC_AMOUNT() {
         return BASIC_AMOUNT;
     }
 
-    public void setBASIC_AMOUNT(Integer BASIC_AMOUNT) {
+    public void setBASIC_AMOUNT(Double BASIC_AMOUNT) {
         this.BASIC_AMOUNT = BASIC_AMOUNT;
     }
 
