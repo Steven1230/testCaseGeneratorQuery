@@ -6,7 +6,7 @@ import java.util.Date;
 
 @Entity
 @Table(name="BLAZ_AP_CU_LOAN_BASIC_INFO")
-public class BlazeApCuLoanBasicInfo {
+public class BlazApCuLoanBasicInfo {
     private String P_ID;
     private String F_ID;
     private String LOAD_STATUS;

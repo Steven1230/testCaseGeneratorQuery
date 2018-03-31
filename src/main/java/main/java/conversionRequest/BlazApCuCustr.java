@@ -6,8 +6,8 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
-@Table(name="BLAZE_AP_CU_CUSTR")
-public class BlazeApCuCustr {
+@Table(name="BLAZ_AP_CU_CUSTR")
+public class BlazApCuCustr {
 
     @Column(name="CUSTR_NBR")
     private String CUSTR_NBR;
